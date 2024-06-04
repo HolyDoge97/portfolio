@@ -1,0 +1,30 @@
+.layout {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 10px;
+    &-left {
+      display: flex;
+      justify-content: start;
+    }
+    &-right {
+      display: flex;
+      justify-content: end;
+    }
+    div {
+      flex: 1 0 0;
+    }
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+}

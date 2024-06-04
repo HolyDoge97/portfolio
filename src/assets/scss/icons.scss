@@ -1,0 +1,12 @@
+.icon {
+  &__hamburger-white {
+    width: 30px;
+    height: 30px;
+    background: url("@/assets/icons/icon-hamburger-white.svg") no-repeat center;
+  }
+  &__hamburger-gray {
+    width: 30px;
+    height: 30px;
+    background: url("@/assets/icons/icon-hamburger-gray.svg") no-repeat center;
+  }
+}

@@ -1,0 +1,20 @@
+@import "layout.scss";
+@import "icons.scss";
+.shjo {
+  &__flex {
+    &-col {
+      display: flex;
+      flex-direction: column;
+    }
+    &-row {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+.gap5 {
+  gap: 5px;
+}
+.gap10 {
+  gap: 5px;
+}
