@@ -17,4 +17,14 @@
       background: url("@/assets/icons/icon-insta-blue.svg") no-repeat center;
     }
   }
+  &__close {
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background: url("@/assets/icons/icon-close-white.svg") no-repeat center;
+    &:hover {
+      background: url("@/assets/icons/icon-close-black.svg") no-repeat center;
+    }
+  }
 }

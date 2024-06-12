@@ -29,13 +29,13 @@
     flex: 1 0 0;
   }
   &__menu {
+    padding: 10px 30px;
     z-index: 100;
     height: 100%;
-    background-color: #000;
+    background-color: #53597c;
     position: absolute;
-    filter: opacity(0.8);
     width: 400px;
-    left: -400px;
+    left: -470px;
     &.active {
       left: 0px;
     }

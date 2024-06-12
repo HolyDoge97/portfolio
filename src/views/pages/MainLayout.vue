@@ -5,7 +5,7 @@
             <span @click="data++">{{ getAnyText }}</span>
             <span>{{ data }}</span>
         </div>
-        <menu-from-left-side :isMenuShow="isMenuShow" />
+        <menu-from-left-side :isMenuShow="isMenuShow" @closeMenu="menuClicked" />
     </div>
 </template>
 
