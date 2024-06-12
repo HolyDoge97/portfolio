@@ -1,6 +1,6 @@
 
 <template>
-  <div class="not-found-container">
+  <div class="layout__container">
     <div class="not-found-body">
       <span class="not-found-title">
         4<span class="not-found-title" style="color:#8e43f0">0</span>4</span>
@@ -8,10 +8,9 @@
       <br />
       <q-separator />
       <br />
-      <q-btn class="not-found-button" @click="goToBackPage" label="이전 페이지로"/>
+      <q-btn class="not-found-button" @click="goToBackPage" label="이전 페이지로" />
     </div>
   </div>
-  
 </template>
 
 <script setup lang="js">
@@ -24,37 +23,40 @@ const goToBackPage = () => {
 </script>
 
 <style scope lang="scss">
-.not-found-container{
+.not-found-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width : 100vw;
-  height : 100vh;
-  .not-found-body{
+  width: 100vw;
+  height: 100vh;
+
+  .not-found-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:70%;
+    width: 70%;
     align-self: center;
   }
-  .not-found-title{
-    width:100%;
+
+  .not-found-title {
+    width: 100%;
     text-align: center;
     font-weight: 800;
     font-size: 15rem;
   }
-  .not-found-contents{
-    width:100%;
+
+  .not-found-contents {
+    width: 100%;
     text-align: center;
     font-weight: 300;
     font-size: 2rem;
   }
-  .not-found-button{
+
+  .not-found-button {
     align-self: center;
-    width:100%;
+    width: 100%;
     background-color: #8e43f0;
-    color : white;
-    max-width : 1000px;
+    color: white;
+    max-width: 1000px;
   }
-}
-</style>
+}</style>

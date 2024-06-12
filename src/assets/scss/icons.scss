@@ -1,12 +1,20 @@
 .icon {
-  &__hamburger-white {
-    width: 30px;
-    height: 30px;
-    background: url("@/assets/icons/icon-hamburger-white.svg") no-repeat center;
-  }
-  &__hamburger-gray {
+  &__hamburger {
+    cursor: pointer;
     width: 30px;
     height: 30px;
     background: url("@/assets/icons/icon-hamburger-gray.svg") no-repeat center;
+    &:hover {
+      background: url("@/assets/icons/icon-hamburger-blue.svg") no-repeat center;
+    }
+  }
+  &__insta {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background: url("@/assets/icons/icon-insta-gray.svg") no-repeat center;
+    &:hover {
+      background: url("@/assets/icons/icon-insta-blue.svg") no-repeat center;
+    }
   }
 }

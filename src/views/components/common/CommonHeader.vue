@@ -1,16 +1,18 @@
 <template>
   <div class="layout__header">
     <div class="layout__header-left">
-      <input type="button" />
-      <i class="icon__hamburger-gray" />
+      <i class="icon__hamburger" @click="emits('menuClicked')" />
     </div>
     <div class="layout__header-right">
-      <span>ASD</span>
+      <i class="icon__insta" @click="emits('snsClicked')" />
     </div>
   </div>
 </template>
 
 <script setup>
+import { defineEmits } from 'vue'
+const emits = defineEmits(['menuClicked', 'snsClicked']);
+
 
 </script>
 
